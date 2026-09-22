@@ -65,17 +65,3 @@ def predict(house:HouseFefatures):
             status_code=500,
             detail=f"prediction fail {str(e)}"
         )
-
-''' try:
-      input_datat = pd.DataFrame([{
-        "MedInc": house.MedInc,
-        "HouseAge": house.HouseAge,
-        "AveRooms": house.AveRooms,
-        "AveBedrms": house.Avebedrms,
-        "Population": house.Population,
-        "AveOccup": house.AveOccup,
-        "Latitude": house.Latitude,
-        "Longitude": house.Longitude
-      }])
-
-      prediction = model.predict(input_datat)[0]'''
