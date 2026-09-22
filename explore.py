@@ -9,3 +9,4 @@ print(df.head())
 print(df.describe())
 
 
+# In this file we have checked the data set and explored the data set for preprocesing 

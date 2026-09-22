@@ -27,3 +27,6 @@ print(f"avrage error : ${mea * 100000:,.0f}")
 
 joblib.dump(model,"house_model.joblib")
 joblib.dump(list(X.columns), "house_features.joblib")
+
+# we have trained the modle and use joblib to save so everytime we run the modle it skips the traning part because joblib have alrady 
+#saved the trained model ,so we can directly get the prediction. It saves us time..
